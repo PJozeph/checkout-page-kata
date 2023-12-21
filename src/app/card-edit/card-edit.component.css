@@ -1,0 +1,79 @@
+.sectionOne {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+.sectionOne input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#name {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    /* Módosított szélesség a középre igazításhoz */
+    margin: auto;
+}
+
+/* Módosított CSS a sectionTwo-hoz */
+.sectionTwo {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    /* Az elemek egymás közötti térköz elosztása */
+}
+
+.sectionTwo .input-group {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+}
+
+.sectionTwo label {
+    margin-bottom: 10px;
+}
+
+.sectionTwo select {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Módosított CSS a sectionThree-hoz */
+.sectionThree {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sectionThree label {
+    margin-bottom: 10px;
+}
+
+.sectionThree input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+/* Módosított CSS a sectionFour-hoz */
+.sectionFour {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
